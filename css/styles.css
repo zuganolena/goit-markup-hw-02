@@ -88,7 +88,7 @@ a {
     background: var(--navy-blue);
 }
     
-.first-button {;
+.button {
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
@@ -96,14 +96,14 @@ a {
     color: var(--white);
     cursor: pointer;
     background-color: #4D5AE5;
-    
+
 }
 
-.first-button:hover {
+.button:hover {
     background-color: #404bbf;
 }
 
-.first-button:focus {
+.button:focus {
     background-color: #404bbf;
 }
 
@@ -145,4 +145,16 @@ h2 {
 
 .feature-text {
     font-size: 16px;
+}
+
+.span-footer {
+    color: #f4f4fd;
+}
+
+.footer {
+    background-color: #2e2f42;
+}
+
+.footer-text {
+    color: #f4f4fd;
 }
