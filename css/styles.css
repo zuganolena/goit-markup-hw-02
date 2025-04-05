@@ -32,7 +32,7 @@ h1 {
 }
 
 .logo {
-    font-family: "Raleway": sans-serif;
+    font-family: "Raleway", sans-serif;
     font-weight: 700;
     font-size: 18px;
     line-height: 1.17;
@@ -74,18 +74,25 @@ span {
 }
 
 .first-section {
-    width: 1440px;
-    height: 600px;
     background: var(--navy-blue);
 }
     
-button {;
+.first-button {;
     font-weight: 500;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
+    background-color: #4d5ae5;
+}
+
+.first-button:hover {
+    background-color: #404bbf;
+}
+
+.first-button:focus {
+    background-color: #404bbf;
 }
 
 h3 {
@@ -112,3 +119,18 @@ h2 {
     color: var(--navy-blue);
 }
 
+.team {
+    background-color: #f4f4fd;
+}
+
+.team-title {
+    text-transform: capitalize;
+}
+
+.team-members {
+    background-color: #FFFFFF;
+}
+
+.team-text {
+    font-size: 16px;
+}
