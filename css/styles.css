@@ -20,6 +20,7 @@
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
+    background-color: #FFFFFF;
 }
 h1 {
     font-weight: 700;
@@ -31,8 +32,17 @@ h1 {
 }
 
 .logo {
-    width: 115px;
-    height: 24px;
+    font-family: "Raleway": sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: #4d5ae5;
+}
+
+span {
+    color: #2e2f42;
 }
 
 
@@ -46,12 +56,21 @@ h1 {
 }
 
 .address {
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 150%;
     letter-spacing: 0.02em;
     color: var(--slate);
     text-decoration: none;
+}
+
+.address:hover {
+    color: #404bbf;
+}
+
+.address:focus{
+    color: #404bbf;
 }
 
 .first-section {
