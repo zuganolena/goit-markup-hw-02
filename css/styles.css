@@ -41,10 +41,13 @@ h1 {
     color: #4d5ae5;
 }
 
-span {
+.span-logo {
     color: #2e2f42;
 }
 
+a {
+    text-decoration: none;
+}
 
 .link-header {
     font-weight: 500;
@@ -53,6 +56,14 @@ span {
     letter-spacing: 0.02em;
     color: var(--navy-blue);
     text-decoration: none;
+}
+
+.link-header:hover {
+    color: #404bbf;
+}
+
+.link-header:focus {
+    color: #404bbf;
 }
 
 .address {
@@ -84,7 +95,8 @@ span {
     letter-spacing: 0.04em;
     color: var(--white);
     cursor: pointer;
-    background-color: #4d5ae5;
+    background-color: #4D5AE5;
+    
 }
 
 .first-button:hover {
@@ -131,6 +143,6 @@ h2 {
     background-color: #FFFFFF;
 }
 
-.team-text {
+.feature-text {
     font-size: 16px;
 }
