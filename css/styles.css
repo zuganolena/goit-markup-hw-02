@@ -67,6 +67,8 @@ a {
 }
 
 .address {
+    display: flex;
+    flex-direction: row;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -122,6 +124,10 @@ p {
     color: var(--slate);
 }
 
+ul {
+    list-style: none;
+}
+
 h2 {
     font-weight: 700;
     font-size: 36px;
@@ -129,6 +135,21 @@ h2 {
     letter-spacing: 0.02em;
     text-align: center;
     color: var(--navy-blue);
+}
+
+.header-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav-container {
+    display: flex;
+    flex-direction: row;
+}
+
+.header-nav-container-item {
+    display: flex;
+    flex-direction: row;
 }
 
 .team {
@@ -163,4 +184,11 @@ h2 {
     color: #f4f4fd;
 }
 
-.container 
+.container {
+    width: ;
+}
+
+img {
+	display: block;
+    max-width: 100%;
+}
